@@ -1,5 +1,3 @@
-# README.md content for the portfolio website
-
 # Portfolio and CV Website
 
 This project is a personal portfolio and CV website designed to showcase my skills, projects, and professional experience. 
