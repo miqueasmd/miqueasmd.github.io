@@ -3,31 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio and CV</title>
+    <title>Miqueas Molina - Data Analyst & IT Professional</title>
     <link rel="stylesheet" href="src/css/main.css">
-    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/about.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="src/pages/about.html">About Me</a></li>
-                <li><a href="src/pages/portfolio.html">My Work</a></li>
-                <li><a href="src/pages/resume.html">Resume</a></li>
-                <li><a href="src/pages/contact.html">Contact</a></li>
-            </ul>
+    <div class="container">
+        <header class="hero-section">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <img src="src/images/profile.jpg" alt="Miqueas Molina">
+                </div>
+                <div class="hero-text">
+                    <h1>Hi! I'm Miqueas 👋</h1>
+                    <p class="tagline">Technical Trainer | Cloud Engineer | AI Agents & Automations </p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/miqueas-molina">
+                    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+                </a>
+                <a href="https://www.upwork.com/freelancers/miqueasmd">
+                    <img src="https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white" alt="Upwork">
+                </a>
+                <a href="https://github.com/miqueasmd">
+                    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+                </a>
+            </div>
+        </header>
+
+        <nav class="main-nav">
+            <a href="src/pages/about.html" class="nav-card">
+                <h2>About Me</h2>
+                <p>Learn about my journey and expertise in IT, training, and data analysis.</p>
+            </a>
+            <a href="src/pages/resume.html" class="nav-card">
+                <h2>Resume</h2>
+                <p>View my professional experience, education, and technical skills.</p>
+            </a>
+            <a href="src/pages/portfolio.html" class="nav-card">
+                <h2>Portfolio</h2>
+                <p>Explore my latest projects in data analysis, AI, and web development.</p>
+            </a>
+            <a href="src/pages/contact.html" class="nav-card">
+                <h2>Contact</h2>
+                <p>Let's connect and discuss potential collaborations!</p>
+            </a>
         </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Introduction</h2>
-            <p>This is a brief introduction about myself and my work.</p>
+
+        <section class="featured-projects">
+            <h2>Featured Projects</h2>
+            <div class="projects-preview">
+                <a href="src/pages/portfolio.html#healthyremote" class="project-preview-card">
+                    <h3>HealthyRemote</h3>
+                    <p>A wellness platform for remote workers</p>
+                </a>
+                <a href="src/pages/portfolio.html#malware" class="project-preview-card">
+                    <h3>Microsoft Malware Detection</h3>
+                    <p>ML project for Windows security</p>
+                </a>
+            </div>
         </section>
-    </main>
+    </div>
+
     <footer>
-        <p>&copy; 2023 My Portfolio</p>
+        <p>© 2024 Miqueas Molina • <a href="https://ko-fi.com/miqueasmd">Support my work</a></p>
     </footer>
-    <script src="src/js/main.js"></script>
 </body>
 </html>

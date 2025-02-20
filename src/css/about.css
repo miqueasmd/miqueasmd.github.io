@@ -1,0 +1,358 @@
+.language-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.language-item {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.language-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.interests-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.interest-item {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.interest-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.project-card {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.project-card h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.project-card h4 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-card ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 1rem 0;
+}
+
+.project-card ul li {
+    padding-left: 1.5rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.project-card ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.project-link:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.goals-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.goals-section li {
+    margin: 1rem 0;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.goals-section li:before {
+    content: "📌";
+    position: absolute;
+    left: 0;
+}
+
+.contact-section, .support-section {
+    text-align: center;
+    margin: 4rem 0;
+    padding: 3rem;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+.profile-footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--primary-color);
+}
+
+.intro-grid, .focus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.career-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.intro-item, .focus-item {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.intro-item:hover, .focus-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.intro-item h4, .focus-item h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.intro-section, .career-section, .focus-section {
+    margin: 3rem 0;
+}
+
+.intro-section h3, .career-section h3, .focus-section h3 {
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+
+/* Update existing section styles to match */
+.skills-section, .language-section, .interests-section, 
+.projects-section, .goals-section, .contact-section, 
+.support-section {
+    margin: 3rem 0;
+}
+
+/* General Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+
+/* Section Headers */
+h3 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+/* Skills Section */
+.skills-section {
+    margin: 4rem 0;
+}
+
+.skills-category {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+/* Center Content Class */
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .career-grid, .projects-grid, .language-grid, .interests-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .intro-grid, .focus-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .intro-item, .focus-item, .career-item, .language-item, .interest-item, .project-card {
+        padding: 1.5rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .project-links {
+        flex-direction: column;
+    }
+}
+
+/* Portfolio Page Specific Styles */
+.profile-links {
+    text-align: center;  /* Center the text and icons */
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content */
+}
+
+.profile-links p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.contact-grid {
+    display: flex; /* Use flexbox for better alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center content horizontally */
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 600px; /* Limit the width to keep the content compact */
+}
+
+.contact-info {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center; /* Ensure text alignment inside the box */
+    width: 100%;
+}
+
+.contact-item {
+    margin: 1.5rem 0; /* Add spacing */
+}
+
+.contact-item h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #0077B5;
+    margin-bottom: 0.5rem;
+}
+
+.contact-item p {
+    font-size: 1.2rem;
+    margin: 0.3rem 0; /* Keep spacing consistent */
+    font-weight: 500;
+}
