@@ -77,6 +77,7 @@ nav a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center 1%; /* Ajusta este valor para mover la imagen hacia arriba o abajo */
 }
 
 .hero-text {
