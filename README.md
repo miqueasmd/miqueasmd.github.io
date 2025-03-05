@@ -20,6 +20,3 @@ This project is a personal portfolio and CV website designed to showcase my skil
 
 To run this project locally, clone the repository and open `index.html` in your web browser.
 
-## License
-
-This project is licensed under the MIT License.
