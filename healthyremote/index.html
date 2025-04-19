@@ -15,17 +15,18 @@
         }
         
         .app-logo {
-            width: 180px;
-            height: 180px;
-            border-radius: 20%;
+            width: 200px;
+            height: auto; /* Cambiamos de altura fija a auto para mantener la proporción */
+            border-radius: 15px; /* Reducimos un poco el radio para que se vea mejor */
             overflow: hidden;
             box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            margin-right: 2rem;
         }
         
         .app-logo img {
             width: 100%;
-            height: 100%;
-            object-fit: cover;
+            height: auto; /* Altura automática para mantener la proporción */
+            object-fit: contain; /* Cambiamos de 'cover' a 'contain' para mostrar la imagen completa */
         }
         
         .app-preview {
