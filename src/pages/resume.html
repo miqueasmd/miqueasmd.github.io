@@ -10,7 +10,11 @@
 <body>
     <div class="container">
         <header class="resume-header">
+            <nav class="back-nav">
+                <a href="../../index.html">&larr; Home</a>
+            </nav>
             <h1>Miqueas Molina Delgado</h1>
+            <p class="resume-tagline">AI & Cloud Automation Engineer & Consultant | AI Agents | RPA | EN/ES/FR | Technical Trainer</p>
             <div class="contact-info">
                 <p>📱 +34 604 925 311 / +1 360 205 5024</p>
                 <p>📧 miqueasmd@gmail.com</p>
@@ -21,38 +25,72 @@
                     <a href="https://github.com/miqueasmd">
                         <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
                     </a>
+                    <a href="https://www.malt.es/profile/miqueasmolina">
+                        <img src="https://img.shields.io/badge/Malt-FC5656?style=for-the-badge&logo=malt&logoColor=white" alt="Malt">
+                    </a>
+                    <a href="https://www.upwork.com/freelancers/miqueasmd">
+                        <img src="https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white" alt="Upwork">
+                    </a>
                 </div>
             </div>
         </header>
 
         <section class="summary">
             <h2>Professional Summary</h2>
-            <p>IT professional with over 10 years of technical training experience across different countries. 
-                Specialized in using modern technologies for software training, system optimization, and IT problem-solving. 
-                Passionate about AI, Automation & system improvement through advanced data analytics.</p>
+            <p>AI & Cloud Automation Engineer specializing in AI Agents, RPA, and cloud integrations.
+                Currently engineering AI-powered automation workflows at Ferrovial using Microsoft Power Platform, Azure, and LangGraph,
+                while consulting with European businesses through Malt and Upwork.
+                Over 10 years of technical training experience across multiple countries (USA, UK, Germany, Spain).
+                Trilingual professional (EN/ES/FR) passionate about helping companies automate processes and scale through cloud and AI.</p>
         </section>
 
         <section class="experience">
             <h2>Professional Experience</h2>
 
             <div class="experience-item">
-                <h3>AI Cloud & Automation Engineer</h3>
-                <p class="date">2025 - Present</p>
+                <h3>AI Cloud, Automation & RPA Engineer & Consultant</h3>
+                <p class="company">Malt</p>
+                <p class="date">Feb 2026 - Present</p>
                 <ul>
-                    <li>AI & Automation, RPA: Creation and implementation of efficient and robust solutions that automate key systems and processes.</li>
-                    <li>Cloud Integration: Integration of services and data in the cloud, ensuring scalability and security.</li>
+                    <li><strong>Hospitality:</strong> Full Oracle Cloud infrastructure (OCI) — ARM servers, Docker (n8n, PostgreSQL, Redis, Caddy), SSH hardening, DNS, backups, pentesting.</li>
+                    <li><strong>Beauty & Wellness:</strong> AI-powered WhatsApp booking system with n8n, Google Calendar sync. Automated Google reviews (49 to 128 in ~6 months, 4.9 avg). Multi-tenant Streamlit dashboard on OCI with CI/CD.</li>
+                    <li><strong>Fresh Food E-commerce:</strong> Automated Shopify order processing — Python Cloud Function on GCP, SKU mapping, combo decomposition, Google Sheets output.</li>
                 </ul>
             </div>
+
+            <div class="experience-item">
+                <h3>AI Cloud, Automation & RPA Engineer</h3>
+                <p class="company">Ferrovial</p>
+                <p class="date">Oct 2025 - Present</p>
+                <ul>
+                    <li><strong>Schedule Agent:</strong> AI system transforming contractual documents into P6 baseline schedules (~7,000 activities). Azure Functions + Copilot Studio + GPT-5 + 11 Power Automate flows.</li>
+                    <li><strong>Geotechnical Intelligence Agent:</strong> Multi-model AI analysis (GPT-5, O3) for geotechnical documents with gap detection and 70+ test type workbooks. Copilot Studio + 12 Power Automate flows.</li>
+                    <li><strong>Deep Research Platform:</strong> Autonomous multi-agent system (LangGraph) for strategic intelligence. Agents for planning, searching, evaluation, analysis (Gemini 2.5 Pro), and Word document consolidation.</li>
+                    <li><strong>AI Image Editor:</strong> FastAPI on Azure Container Apps with Gemini (Vertex AI) for masked in-painting + PDF/PPTX generation. Airtable + Google Drive integration.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>AI Cloud, Automation & RPA Engineer & Consultant</h3>
+                <p class="company">Upwork</p>
+                <p class="date">May 2025 - Present</p>
+                <ul>
+                    <li>AI Agents, Automations & RPA, Cloud Services & Integrations, Technical Training.</li>
+                    <li><strong>Industrial Packaging:</strong> RPA automation — 3 modules: supplier OCR extraction (AI Builder), production coil tracking with PDF labels, customer order ERP entry. 10 flows, 3 AI Builder OCR models, SharePoint document management.</li>
+                </ul>
+            </div>
+
             <div class="experience-item">
                 <h3>Technical Trainer, Digital Consultant, Sales</h3>
-                <p class="date">2021 - Present</p>
+                <p class="company">Upwork (multiple clients)</p>
+                <p class="date">Dec 2021 - Present</p>
                 <ul>
-                    <li>True Group (USA): Training for Novavax and McDonalds (Salesforce, Veeva CRM, Cisco Webex)</li>
-                    <li>SchoolMate (Europe): Language academy administration and management (ERP + CRM)</li>
-                    <li>RepairCRM (Europe): Digital solution for multiservice and repair companies</li>
-                    <li>GoIT (Spain & Latin America): Online programming courses</li>
+                    <li>Schoolmate (Europe): Language academy management system (ERP + CRM)</li>
+                    <li>RepairCRM (Europe): CRM + ERP for maintenance and repair companies</li>
+                    <li>GoIT (Spain & Latam): Online IT courses</li>
                 </ul>
             </div>
+
             <div class="experience-item">
                 <h3>Teaching & Training</h3>
                 <p class="date">2011 - 2021</p>
@@ -62,13 +100,14 @@
                     <li>Technology and education (teacher training) in Spain</li>
                 </ul>
             </div>
+
             <div class="experience-item">
                 <h3>Technology Sales & Customer Service</h3>
                 <p class="date">2007 - 2011</p>
                 <ul>
-                    <li>Benotac: Apple products sales, technical repairs, and customer service</li>
-                    <li>Worten: Electronics and appliances, in-store and online sales</li>
-                    <li>El Corte Inglés: Computer department sales</li>
+                    <li>Benotac: Apple products sales, technical repairs (first Apple Store in Marbella)</li>
+                    <li>Worten: Electronics sales</li>
+                    <li>El Corte Ingles: Computer department</li>
                 </ul>
             </div>
         </section>
@@ -78,8 +117,14 @@
             <div class="education-grid">
                 <div class="education-item">
                     <h3>Computer Science Engineering</h3>
-                    <p>UOC, Barcelona</p>
+                    <p>Universitat Oberta de Catalunya (UOC)</p>
                     <p class="date">2025 - Present</p>
+                </div>
+                <div class="education-item">
+                    <h3>Network Systems Administration (ASIR)</h3>
+                    <p>Associate's Degree</p>
+                    <p>Ilerna, Madrid</p>
+                    <p class="date">2023 - 2025</p>
                 </div>
                 <div class="education-item">
                     <h3>Robotic Process Automation, RPA</h3>
@@ -87,19 +132,14 @@
                     <p class="date">2025</p>
                 </div>
                 <div class="education-item">
-                    <h3>Network Systems Administration (ASIR)</h3>
-                    <p>Ilerna, Madrid</p>
-                    <p class="date">2023 - 2025</p>
+                    <h3>Data Analysis & Machine Learning</h3>
+                    <p>Ironhack, Madrid</p>
+                    <p class="date">2024 - 2025</p>
                 </div>
                 <div class="education-item">
                     <h3>Master's in Bilingual Teaching</h3>
                     <p>Universidad Internacional de La Rioja</p>
                     <p class="date">2016 - 2018</p>
-                </div>
-                <div class="education-item">
-                    <h3>Bachelor's in Primary Education (English)</h3>
-                    <p>Universidad CEU Cardenal Herrera, Valencia</p>
-                    <p class="date">2015 - 2016</p>
                 </div>
                 <div class="education-item">
                     <h3>Master's in Secondary Education (MAES)</h3>
@@ -112,42 +152,9 @@
                     <p class="date">2012 - 2014</p>
                 </div>
                 <div class="education-item">
-                    <h3>Primary Education (Physical Education)</h3>
-                    <p>Universidad de Granada & University of Bradford</p>
-                    <p class="date">2009 - 2012</p>
-                </div>
-                <div class="education-item">
                     <h3>Computer Systems Administration (ASI)</h3>
-                    <p>IES Guadalpín & Nelson Mandela Schule, Berlin</p>
+                    <p>IES Guadalpin & Nelson Mandela Schule, Berlin</p>
                     <p class="date">2007 - 2009</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="additional-education">
-            <h2>Additional Training</h2>
-            <div class="education-grid">
-                <div class="education-item">
-                    <h3>Data Analysis & Machine Learning</h3>
-                    <p>Ironhack, Madrid</p>
-                    <p>Python, SQL, PowerBI & Tableau</p>
-                    <p class="date">2024-2025</p>
-                </div>
-                <div class="education-item">
-                    <h3>Web Development</h3>
-                    <p>Next Generation EU Training</p>
-                    <p>JavaScript, HTML5 & CSS</p>
-                    <p class="date">2024</p>
-                </div>
-                <div class="education-item">
-                    <h3>Educational Technology Certifications</h3>
-                    <ul>
-                        <li>Google for Education L2</li>
-                        <li>Apple Teacher Certification</li>
-                        <li>Idoceo Ambassador</li>
-                        <li>Additio Certified Teacher</li>
-                    </ul>
-                    <p class="date">2020 - 2023</p>
                 </div>
             </div>
         </section>
@@ -156,34 +163,34 @@
             <h2>Technical Skills</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>Cloud & Automation</h3>
+                    <h3>AI & Automation</h3>
                     <ul>
-                        <li>AI Agents & Automations</li>
-                        <li>UiPath, Power Automate</li>
-                        <li>Make, Zapier, n8n, Gumloop</li>
-                        <li>AWS, Azure & GCP</li>
-                        <li>Docker, CI/CD</li>
-                        <li>API Integration</li>
+                        <li>AI Agents (LangChain, LangGraph, OpenAI, Gemini)</li>
+                        <li>RPA: UiPath, Power Automate (Cloud & Desktop)</li>
+                        <li>Copilot Studio, AI Builder</li>
+                        <li>n8n, Make</li>
+                        <li>Python Automation (Selenium, Playwright, Scrapy)</li>
                     </ul>
                 </div>
-                
+
                 <div class="skill-category">
-                    <h3>Programming & Data Analysis</h3>
+                    <h3>Cloud & Infrastructure</h3>
                     <ul>
-                        <li>Python, Data Wrangling, and Retrieval. ETL, EDA</li>
-                        <li>Machine Learning (ML), Cloud Computing & Artificial Intelligence (AI)</li>
-                        <li>SQL, MySQL, Databases Analysis, and Statistics</li>
-                        <li>Data Visualization and Presentation. PowerBI and Tableau</li>
+                        <li>Azure (Functions, Container Apps, OpenAI, Document Intelligence)</li>
+                        <li>GCP (Cloud Functions, Vertex AI, Cloud Scheduler)</li>
+                        <li>AWS, Oracle Cloud (OCI)</li>
+                        <li>Docker, CI/CD, GitHub Actions</li>
                     </ul>
                 </div>
-                
+
                 <div class="skill-category">
-                    <h3>Web Development</h3>
+                    <h3>Programming & Web</h3>
                     <ul>
-                        <li>HTML5, CSS3</li>
-                        <li>JavaScript, React, Node.js</li>
-                        <li>Java, C#</li>
-                        <li>Version Control (GitHub & Git)</li>
+                        <li>Python, C, C#, JavaScript</li>
+                        <li>React, HTML5, CSS3</li>
+                        <li>SQL, PostgreSQL, Streamlit</li>
+                        <li>REST APIs, FastAPI</li>
+                        <li>Git, GitHub</li>
                     </ul>
                 </div>
             </div>
@@ -194,10 +201,14 @@
             <ul>
                 <li>Spanish (Native)</li>
                 <li>English (C2 - Cambridge)</li>
-                <li>French (B2 - DELF)</li>
+                <li>French (B2 - DELF, preparing C1)</li>
                 <li>Sign Language (Intermediate)</li>
             </ul>
         </section>
     </div>
+
+    <footer>
+        <p>&copy; 2026 Miqueas Molina MMD &bull; <a href="../../index.html">Home</a> &bull; <a href="https://ko-fi.com/miqueasmd">Support my work</a></p>
+    </footer>
 </body>
 </html>

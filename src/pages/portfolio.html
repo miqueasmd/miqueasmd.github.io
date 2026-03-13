@@ -10,9 +10,12 @@
 <body>
     <div class="container">
         <header>
+            <nav class="back-nav">
+                <a href="../../index.html">&larr; Home</a>
+            </nav>
             <h1>My Projects Portfolio</h1>
+            <p class="portfolio-subtitle">AI Agents, Cloud Automation, RPA & Integration projects</p>
             <div class="profile-links">
-                <p>Find more projects on my profiles:</p>
                 <div class="social-links">
                     <a href="https://github.com/miqueasmd">
                         <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
@@ -20,101 +23,180 @@
                     <a href="https://www.upwork.com/freelancers/miqueasmd">
                         <img src="https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white" alt="Upwork">
                     </a>
+                    <a href="https://www.malt.es/profile/miqueasmolina">
+                        <img src="https://img.shields.io/badge/Malt-FC5656?style=for-the-badge&logo=malt&logoColor=white" alt="Malt">
+                    </a>
                 </div>
             </div>
         </header>
 
+        <!-- Filter buttons -->
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="private">Private / Client</button>
+            <button class="filter-btn" data-filter="public">Public Repos</button>
+        </div>
+
         <section class="projects-section">
+
+            <!-- PRIVATE / CLIENT PROJECTS -->
+            <h3 class="section-divider">🔒 Private / Client Projects</h3>
             <div class="projects-grid">
 
-                <div class="project-card">
-                    <h4><a href="https://github.com/miqueasmd/RPA_UiPath_Invoices_Automation_Capstone_Project">Invoice Accounting Automation</a></h4>
-                    <p><strong>Overview:</strong> RPA solution that automates invoice processing in ACME's web app using a Dispatcher/Performer architecture.</p>
-                    <p><strong>Features:</strong></p>
-                    <ul>
-                        <li>Automated extraction and processing of invoice data</li>
-                        <li>Queue-based transaction management</li>
-                        <li>Robust exception handling with UiPath's REFramework</li>
-                        <li>Scalable architecture supporting high volume processing</li>
-                    </ul>
-                    <p><strong>Tech Stack:</strong> UiPath Studio, UiPath Orchestrator, REFramework</p>
+                <div class="project-card" data-category="private">
+                    <div class="project-tag tag-ai">AI Agents</div>
+                    <h4>Schedule Agent</h4>
+                    <p class="project-client">@ Ferrovial</p>
+                    <p>AI-powered system that transforms contractual documents into P6-type baseline schedules (~7,000 activities). Project-agnostic across highway, rail, airport, and data center projects.</p>
+                    <p><strong>Tech:</strong> Azure Functions, Copilot Studio, GPT-5, Azure Document Intelligence, 11 Power Automate flows</p>
                     <div class="project-links">
-                        <a href="https://github.com/miqueasmd/RPA_UiPath_Invoices_Automation_Capstone_Project" class="project-link">View RPA Project</a>
+                        <a href="https://www.linkedin.com/in/miqueas-molina" class="project-link">LinkedIn</a>
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <h4><a href="https://github.com/miqueasmd/AI_Agents_Automation_RPA_Capstone_Project_ASIR">AI Agents & Automation Research</a></h4>
-                    <p><strong>Overview:</strong> A capstone research project investigating whether AI assistants and RPA platforms augment or threaten IT operations professionals.</p>
-                    <p><strong>Features:</strong></p>
-                    <ul>
-                        <li>Analysis of AI agents and automation tools</li>
-                        <li>Comparative benchmarking</li>
-                        <li>Skills roadmap for IT professionals</li>
-                        <li>Reference architecture for hybrid workflows</li>
-                    </ul>
-                    <p><strong>Tech Stack:</strong> GitHub Copilot, UiPath, Power Automate, Make, Zapier, n8n</p>
-                    <a href="https://github.com/miqueasmd/AI_Agents_Automation_RPA_Capstone_Project_ASIR" class="project-link">View Research Project</a>
+                <div class="project-card" data-category="private">
+                    <div class="project-tag tag-ai">AI Agents</div>
+                    <h4>Geotechnical Intelligence Agent</h4>
+                    <p class="project-client">@ Ferrovial</p>
+                    <p>Platform that analyzes geotechnical documents, detects data/design/compliance gaps, and generates investigation campaign workbooks (70+ test types). Multi-model AI analysis (GPT-5, O3).</p>
+                    <p><strong>Tech:</strong> Copilot Studio, 12 Power Automate flows, Azure OpenAI</p>
+                    <div class="project-links">
+                        <a href="https://www.linkedin.com/in/miqueas-molina" class="project-link">LinkedIn</a>
+                    </div>
                 </div>
 
-                <div class="project-card">
+                <div class="project-card" data-category="private">
+                    <div class="project-tag tag-ai">AI Agents</div>
+                    <h4>AI Image Editor & Document Merger</h4>
+                    <p class="project-client">@ Ferrovial</p>
+                    <p>FastAPI app on Azure Container Apps with Gemini (Vertex AI) for masked in-painting, plus PDF/PPTX generation service. Integrated with Airtable and Google Drive.</p>
+                    <p><strong>Tech:</strong> Python, FastAPI, Azure Container Apps, Gemini (Vertex AI), Airtable, Google Drive</p>
+                    <div class="project-links">
+                        <a href="https://www.linkedin.com/in/miqueas-molina" class="project-link">LinkedIn</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="private">
+                    <div class="project-tag tag-cloud">Cloud</div>
+                    <h4>Hospitality Cloud Infrastructure</h4>
+                    <p class="project-client">@ Malt</p>
+                    <p>Full Oracle Cloud infrastructure for a hotel business — two ARM servers (prod/dev), Docker containerized services, SSH hardening, DNS management, automated backups, and penetration testing.</p>
+                    <p><strong>Tech:</strong> Oracle Cloud (OCI), Docker, n8n, PostgreSQL, Redis, Caddy</p>
+                    <div class="project-links">
+                        <a href="https://www.malt.es/profile/miqueasmolina" class="project-link">Malt</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="private">
+                    <div class="project-tag tag-ai">AI Agents</div>
+                    <h4>AI WhatsApp Booking System</h4>
+                    <p class="project-client">@ Malt</p>
+                    <p>AI-powered appointment booking with WhatsApp integration and Google Calendar sync. Automated Google reviews: 49 to 128 in ~6 months (4.9 avg rating). Multi-tenant Streamlit dashboard with CI/CD.</p>
+                    <p><strong>Tech:</strong> n8n, Streamlit, OCI, GitHub Actions, Google APIs</p>
+                    <div class="project-links">
+                        <a href="https://www.malt.es/profile/miqueasmolina" class="project-link">Malt</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="private">
+                    <div class="project-tag tag-cloud">Cloud</div>
+                    <h4>Shopify Order Automation</h4>
+                    <p class="project-client">@ Malt</p>
+                    <p>Automated order processing for a fresh food Shopify store — Python Cloud Function fetches orders, maps SKUs with combo decomposition, calculates delivery dates, and writes to Google Sheets.</p>
+                    <p><strong>Tech:</strong> GCP (Cloud Functions, Cloud Scheduler), Python, Shopify API</p>
+                    <div class="project-links">
+                        <a href="https://www.malt.es/profile/miqueasmolina" class="project-link">Malt</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="private">
+                    <div class="project-tag tag-rpa">RPA</div>
+                    <h4>Industrial Packaging RPA</h4>
+                    <p class="project-client">@ Upwork</p>
+                    <p>RPA automation for a packaging manufacturer — 3 modules: supplier delivery note OCR extraction, production coil tracking with PDF label generation, and customer order processing with automatic ERP entry.</p>
+                    <p><strong>Tech:</strong> Power Automate (Cloud & Desktop), AI Builder (OCR), SharePoint</p>
+                    <div class="project-links">
+                        <a href="https://www.upwork.com/freelancers/miqueasmd" class="project-link">Upwork</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- PUBLIC REPOSITORIES -->
+            <h3 class="section-divider">🌐 Public Repositories</h3>
+            <div class="projects-grid">
+
+                <div class="project-card" data-category="public" id="invoice-rpa">
+                    <div class="project-tag tag-rpa">RPA</div>
+                    <h4><a href="https://github.com/miqueasmd/RPA_UiPath_Invoices_Automation_Capstone_Project">Invoice Accounting Automation</a></h4>
+                    <p>Two-tier UiPath solution that downloads vendor lists, queues transactions and sums EUR invoices automatically. Near-zero manual effort and audit-ready logs.</p>
+                    <p><strong>Tech:</strong> UiPath Studio, UiPath Orchestrator, REFramework</p>
+                    <div class="project-links">
+                        <a href="https://github.com/miqueasmd/RPA_UiPath_Invoices_Automation_Capstone_Project" class="project-link">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="public">
+                    <div class="project-tag tag-ai">AI & LLM</div>
+                    <h4><a href="https://github.com/miqueasmd/AI_Agents_Automation_RPA_Capstone_Project_ASIR">AI Agents & Automation Research</a></h4>
+                    <p>Capstone study benchmarking AI coding assistants and RPA suites across productivity, risk, and skills impact. Reference architecture for hybrid human-bot workflows and skills roadmap.</p>
+                    <p><strong>Tech:</strong> GitHub Copilot, Cursor, UiPath, Power Automate, Make, n8n</p>
+                    <div class="project-links">
+                        <a href="https://github.com/miqueasmd/AI_Agents_Automation_RPA_Capstone_Project_ASIR" class="project-link">View Research</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="public" id="healthyremote">
+                    <div class="project-tag tag-cloud">Cloud & Web</div>
                     <h4><a href="https://github.com/miqueasmd/HealthyRemote">HealthyRemote</a></h4>
-                    <p><strong>Overview:</strong> A wellness platform for remote workers to track activities, stress levels, weight, and mobility tests.</p>
-                    <p><strong>Features:</strong></p>
-                    <ul>
-                        <li>User authentication</li>
-                        <li>Daily activity tracking</li>
-                        <li>Stress level and weight logging</li>
-                        <li>Mobility tests and wellness challenges</li>
-                    </ul>
-                    <p><strong>Tech Stack:</strong> Python, Streamlit, PostgreSQL (Neon), psycopg2, dotenv</p>
+                    <p>Full-stack wellness platform for distributed teams. Tracks activity, stress, weight, mobility tests. PDF reports, Spotify integration, OpenAI wellness assistant.</p>
+                    <p><strong>Tech:</strong> Python, Streamlit, PostgreSQL, OpenAI API</p>
                     <div class="project-links">
                         <a href="https://apphealthyremote.mmdlab.tech/" class="project-link">Try the App</a>
                         <a href="https://github.com/miqueasmd/HealthyRemote" class="project-link">View Code</a>
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <h4><a href="https://github.com/miqueasmd/Microsoft_Malware_Challenge">Microsoft Malware Detection</a></h4>
-                    <p><strong>Overview:</strong> ML project predicting malware detections on Windows machines.</p>
-                    <p><strong>Features:</strong></p>
-                    <ul>
-                        <li>Data preprocessing for 83 system features</li>
-                        <li>ML models for malware classification</li>
-                        <li>Stratified sampling for class balance</li>
-                    </ul>
-                    <p><strong>Tech Stack:</strong> Python, Pandas, Scikit-learn, Jupyter</p>
-                    <a href="https://github.com/miqueasmd/Microsoft_Malware_Challenge" class="project-link">View Project</a>
-                </div>
-
-                <div class="project-card">
-                    <h4><a href="https://github.com/miqueasmd/100_days_of_Code_Replit">100 Days of Code</a></h4>
-                    <p><strong>Overview:</strong> A series of coding challenges across various domains.</p>
-                    <p><strong>Features:</strong></p>
-                    <ul>
-                        <li>100+ coding challenges</li>
-                        <li>Web development projects</li>
-                        <li>Data structures & algorithms</li>
-                    </ul>
-                    <p><strong>Tech Stack:</strong> Python, Flask, Shelve DB, HTML, CSS, JavaScript</p>
-                    <a href="https://github.com/miqueasmd/100_days_of_Code_Replit" class="project-link">View Challenges</a>
-                </div>
-
-                <div class="project-card">
-                    <h4><a href="https://github.com/miqueasmd/Shark-Attack-Olympic-Games-Edition">Shark Attack Analysis</a></h4>
-                    <p><strong>Overview:</strong> Analysis of shark attacks data for Olympic athletes insurance rates.</p>
-                    <p><strong>Features:</strong></p>
-                    <ul>
-                        <li>Data cleaning and preprocessing</li>
-                        <li>Statistical analysis</li>
-                        <li>Risk assessment modeling</li>
-                    </ul>
-                    <p><strong>Tech Stack:</strong> Python, Pandas, Data Analysis</p>
-                    <a href="https://github.com/miqueasmd/Shark-Attack-Olympic-Games-Edition" class="project-link">View Analysis</a>
+                <div class="project-card" data-category="public">
+                    <div class="project-tag tag-ai">AI & LLM</div>
+                    <h4><a href="https://github.com/miqueasmd/Building_RAG_Applications_LangChain">RAG Applications with LangChain</a></h4>
+                    <p>Retrieval-Augmented Generation system for intelligent document search and question answering using LangChain and vector databases.</p>
+                    <p><strong>Tech:</strong> Python, LangChain, Vector Databases</p>
+                    <div class="project-links">
+                        <a href="https://github.com/miqueasmd/Building_RAG_Applications_LangChain" class="project-link">View Project</a>
+                    </div>
                 </div>
 
             </div>
         </section>
     </div>
+
+    <footer>
+        <p>&copy; 2026 Miqueas Molina MMD &bull; <a href="../../index.html">Home</a> &bull; <a href="https://ko-fi.com/miqueasmd">Support my work</a></p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.dataset.filter;
+
+                document.querySelectorAll('.project-card').forEach(card => {
+                    card.style.display = (filter === 'all' || card.dataset.category === filter) ? '' : 'none';
+                });
+
+                document.querySelectorAll('.section-divider').forEach(divider => {
+                    if (filter === 'all') {
+                        divider.style.display = '';
+                    } else if (filter === 'private') {
+                        divider.style.display = divider.textContent.includes('Private') ? '' : 'none';
+                    } else {
+                        divider.style.display = divider.textContent.includes('Public') ? '' : 'none';
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
