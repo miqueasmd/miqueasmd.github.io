@@ -101,6 +101,13 @@ nav a {
     font-weight: 500;
 }
 
+.tagline-secondary {
+    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 0.75rem;
+    font-weight: 400;
+}
+
 .hero-subtitle {
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.75);
@@ -146,7 +153,7 @@ nav a {
 /* Main nav cards */
 .main-nav {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     margin: 2rem 0;
 }

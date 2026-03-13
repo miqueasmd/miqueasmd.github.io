@@ -1,7 +1,7 @@
 /* Language grid */
 .language-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     margin: 1.5rem 0;
 }
@@ -68,7 +68,7 @@
 /* Projects grid */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     margin: 1.5rem 0;
 }
@@ -227,13 +227,19 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     margin: 1.5rem 0;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .career-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .intro-item, .focus-item, .career-item {

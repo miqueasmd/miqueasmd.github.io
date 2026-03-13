@@ -17,6 +17,12 @@
     color: rgba(255, 255, 255, 0.85);
 }
 
+.resume-tagline-secondary {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
+}
+
 .resume-header .contact-info p {
     color: rgba(255, 255, 255, 0.9);
 }
@@ -119,6 +125,15 @@
     color: var(--accent-color, #0ea5e9);
     font-weight: 600;
     font-size: 0.9rem;
+}
+
+.role-title {
+    color: var(--text-color, #1e293b);
+    font-size: 1.05rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.15rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color, #e2e8f0);
 }
 
 /* Education grid */
@@ -226,9 +241,9 @@
 
 /* Languages */
 .languages ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
     list-style: none;
     padding: 0;
 }
@@ -241,6 +256,7 @@
     box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     font-size: 0.93rem;
     color: var(--text-color, #1e293b);
+    text-align: center;
 }
 
 /* Additional education */
