@@ -18,7 +18,7 @@
 
 .language-item:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.1);
+    box-shadow: 0 8px 20px rgba(54, 97, 160, 0.12);
     border-color: var(--primary-color, #2563eb);
 }
 
@@ -51,7 +51,7 @@
 
 .interest-item:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.1);
+    box-shadow: 0 8px 20px rgba(54, 97, 160, 0.12);
     border-color: var(--primary-color, #2563eb);
 }
 
@@ -86,7 +86,7 @@
 
 .project-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.1);
+    box-shadow: 0 8px 20px rgba(54, 97, 160, 0.12);
     border-color: var(--primary-color, #2563eb);
 }
 
@@ -155,7 +155,62 @@
 
 .project-link:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    box-shadow: 0 4px 12px rgba(54, 97, 160, 0.3);
+}
+
+/* Highlights grid */
+.highlights-section {
+    margin: 3rem 0;
+}
+
+.highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin: 1.5rem 0;
+}
+
+.highlight-item {
+    background-color: var(--card-bg, #ffffff);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    border: 1px solid var(--border-color, #e2e8f0);
+    border-left: 4px solid var(--primary-color, #3661A0);
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.highlight-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(54, 97, 160, 0.12);
+}
+
+.highlight-item h4 {
+    color: var(--primary-color, #3661A0);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    letter-spacing: -0.02em;
+}
+
+.highlight-item p {
+    color: var(--text-light, #64748b);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .highlights-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .highlights-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Contact section */
@@ -253,7 +308,7 @@
 
 .intro-item:hover, .focus-item:hover, .career-item:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.1);
+    box-shadow: 0 8px 20px rgba(54, 97, 160, 0.12);
     border-color: var(--primary-color, #2563eb);
 }
 
