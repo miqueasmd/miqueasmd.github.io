@@ -1,14 +1,14 @@
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #3b82f6;
-    --accent-color: #0ea5e9;
+    --primary-color: #3661A0;
+    --secondary-color: #4A7BC0;
+    --accent-color: #7BABDF;
     --background-color: #f8fafc;
     --card-bg: #ffffff;
     --text-color: #1e293b;
     --text-light: #64748b;
     --border-color: #e2e8f0;
-    --gradient-start: #2563eb;
-    --gradient-end: #0ea5e9;
+    --gradient-start: #4A7BC0;
+    --gradient-end: #7BABDF;
 }
 
 * {
@@ -171,7 +171,7 @@ nav a {
 
 .nav-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.12), 0 4px 10px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 10px 25px rgba(31, 58, 104, 0.15), 0 4px 10px rgba(0, 0, 0, 0.06);
     border-color: var(--primary-color);
 }
 
@@ -218,7 +218,7 @@ nav a {
 
 .project-preview-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.12);
+    box-shadow: 0 10px 25px rgba(31, 58, 104, 0.15);
 }
 
 .project-preview-card h3 {
