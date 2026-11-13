@@ -1,14 +1,14 @@
 :root {
-    --primary-color: #3661A0;
-    --secondary-color: #4A7BC0;
-    --accent-color: #7BABDF;
-    --background-color: #f8fafc;
+    --primary-color: #602DED;
+    --secondary-color: #7C3AED;
+    --accent-color: #9A21F7;
+    --background-color: #faf8ff;
     --card-bg: #ffffff;
     --text-color: #1e293b;
     --text-light: #64748b;
     --border-color: #e2e8f0;
-    --gradient-start: #4A7BC0;
-    --gradient-end: #7BABDF;
+    --gradient-start: #602DED;
+    --gradient-end: #9A21F7;
 }
 
 * {
@@ -96,21 +96,21 @@ nav a {
 
 .tagline {
     font-size: 1.3rem;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.96);
     margin-bottom: 0.5rem;
     font-weight: 500;
 }
 
 .tagline-secondary {
     font-size: 1.05rem;
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.96);
     margin-bottom: 0.75rem;
     font-weight: 400;
 }
 
 .hero-subtitle {
     font-size: 1rem;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.96);
     margin-bottom: 1.5rem;
     max-width: 600px;
     margin-left: auto;
@@ -172,7 +172,7 @@ nav a {
 
 .nav-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 25px rgba(31, 58, 104, 0.15), 0 4px 10px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 10px 25px rgba(96, 45, 237, 0.15), 0 4px 10px rgba(0, 0, 0, 0.06);
     border-color: var(--primary-color);
 }
 
@@ -219,7 +219,7 @@ nav a {
 
 .project-preview-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 25px rgba(31, 58, 104, 0.15);
+    box-shadow: 0 10px 25px rgba(96, 45, 237, 0.15);
 }
 
 .project-preview-card h3 {
@@ -302,7 +302,7 @@ nav a {
 
 /* Portfolio subtitle */
 .portfolio-subtitle {
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.96);
     font-size: 1.1rem;
     margin-top: 0.5rem;
 }

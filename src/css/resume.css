@@ -2,7 +2,7 @@
     text-align: center;
     margin-bottom: 2rem;
     padding: 2rem;
-    background: linear-gradient(135deg, var(--gradient-start, #2563eb) 0%, var(--gradient-end, #0ea5e9) 100%);
+    background: linear-gradient(135deg, var(--gradient-start, #602DED) 0%, var(--gradient-end, #A78BFA) 100%);
     border-radius: 16px;
     color: white;
 }
@@ -14,21 +14,21 @@
 }
 
 .resume-header .resume-tagline {
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.96);
 }
 
 .resume-tagline-secondary {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.96);
     font-size: 0.95rem;
     margin-bottom: 0.75rem;
 }
 
 .resume-header .contact-info p {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.96);
 }
 
 .back-nav a {
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.96);
 }
 
 .back-nav a:hover {
@@ -43,7 +43,7 @@
 }
 
 .resume-header .contact-info p {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.96);
 }
 
 .contact-info {
@@ -72,7 +72,7 @@
 }
 
 .summary h2 {
-    color: var(--primary-color, #2563eb);
+    color: var(--primary-color, #602DED);
     margin-bottom: 1rem;
     font-size: 1.4rem;
 }
@@ -84,11 +84,11 @@
 
 /* Experience */
 .experience h2, .education h2, .additional-education h2, .skills h2, .languages h2 {
-    color: var(--primary-color, #2563eb);
+    color: var(--primary-color, #602DED);
     font-size: 1.4rem;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--primary-color, #2563eb);
+    border-bottom: 2px solid var(--primary-color, #602DED);
 }
 
 .experience-item {
@@ -98,7 +98,7 @@
     border-radius: 12px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     border: 1px solid var(--border-color, #e2e8f0);
-    border-left: 4px solid var(--primary-color, #2563eb);
+    border-left: 4px solid var(--primary-color, #602DED);
 }
 
 .experience-item h3 {
@@ -122,7 +122,7 @@
 }
 
 .date {
-    color: var(--accent-color, #0ea5e9);
+    color: var(--accent-color, #A78BFA);
     font-weight: 600;
     font-size: 0.9rem;
 }
@@ -159,7 +159,7 @@
 }
 
 .education-item h3 {
-    color: var(--primary-color, #2563eb);
+    color: var(--primary-color, #602DED);
     margin-bottom: 0.35rem;
     font-size: 1rem;
     border-bottom: none;
@@ -190,7 +190,7 @@
     content: "▸";
     position: absolute;
     left: 0;
-    color: var(--primary-color, #2563eb);
+    color: var(--primary-color, #602DED);
 }
 
 /* Skills grid */
@@ -210,7 +210,7 @@
 }
 
 .skill-category h3 {
-    color: var(--primary-color, #2563eb);
+    color: var(--primary-color, #602DED);
     font-size: 1.05rem;
     margin-bottom: 0.75rem;
     border-bottom: none;
@@ -235,7 +235,7 @@
     content: "▸";
     position: absolute;
     left: 0;
-    color: var(--primary-color, #2563eb);
+    color: var(--primary-color, #602DED);
     font-weight: bold;
 }
 
